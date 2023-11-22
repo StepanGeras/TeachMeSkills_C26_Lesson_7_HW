@@ -20,9 +20,9 @@ public record Runner() {
 
     public static void main(String[] args) {
 
-        Title director = new Director("Alex", "Shrip", 38);
-        Title worker = new Worker("Bob", "Ret", 32);
-        Title accountant = new Accountant("Alis", "Punor", 28);
+        Director director = new Director("Alex", "Shrip", 38);
+        Worker worker = new Worker("Bob", "Ret", 32);
+        Accountant accountant = new Accountant("Alis", "Punor", 28);
 
         Scanner scan = new Scanner(System.in);
         System.out.println("""

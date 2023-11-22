@@ -8,8 +8,8 @@ public class Director extends Title implements IJobTitle {
 
     @Override
     public void jobeTitle() {
+        System.out.print("Director ");
         workInfo();
-        System.out.println("Director");
     }
 
 }

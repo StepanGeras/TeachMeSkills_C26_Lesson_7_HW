@@ -8,8 +8,8 @@ public class Worker extends Title implements IJobTitle {
 
     @Override
     public void jobeTitle() {
+        System.out.print("Worker ");
         workInfo();
-        System.out.println("Worker");
     }
 
 }
